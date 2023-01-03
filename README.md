@@ -31,3 +31,43 @@ Zenity hakkında daha detaylı bilgi edinmek için [tıklayınız.](https://oste
 
 * Projenin bulunduğu dizine girdikten sonra aşağıdaki komutu terminalinize yazarak uygulamayı çalıştırabilirsiniz. <br>
   `bash script.sh`
+
+## :information_source: :framed_picture: Uygulamanın Açıklanması ve Uygulama İçi Görüntüler
+![File Selection](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/file-selection.png?raw=true)
+
+* Programı ilk çalıştırdığınızda bir dosya seçim penceresiyle karşılaşırsınız. <br>
+  Burada içeriğini görüntülemek istediğiniz bir dosya seçersiniz.
+
+  > :bangbang: Uyarı: Seçtiğiniz dosya türünün .sh, .txt gibi text tipinde bir dosya olduğundan emin olunuz. <br>
+    .jpg, .png gibi görüntü dosya türlerini seçtiğinizde uygulama doğru bir şekilde çalışmaz! 
+
+<br>
+
+![Menu](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/menu.png?raw=true)
+
+* Menü kısmında Tam görünüm, Özel görünüm ve Çıkış yap adlı 3 farklı opsiyonumuz var.
+* Tam görünüm opsiyonunu seçtiğinizde bir önceki pencerede seçtiğiniz dosyanın tüm satırlarını görüntüler. <br>
+  
+![Full Content](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/FullContent.png?raw=true)
+
+* Özel görünüm opsiyonunu seçtiğinizde ilk olarak kullanıcıdan bir başlangıç değeri girmesini ister bu değer gösterilecek içeriğin başlangıç satırını temsil eder.
+  > Not: Başlangıç değerine 1 sayısından daha küçük bir değer girilirse aşağıdaki gibi bir uyarı penceresi çıkar ve başlangıç değerinin yeniden girilmesi istenir.
+
+![Start Value](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/start2.png?raw=true)
+
+![Start Value Error](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/start-err.png?raw=true)
+
+* Kullanıcı geçerli bir başlangıç değeri girdikten sonra bitiş değerinin girileceği pencereye yönlendirilir. Bitiş değeri gösterilecek içeriğin son satırını temsil eder.
+  > Not: Bitiş değerine başlangıç değerinden daha küçük bir değer girilirse aşağıdaki gibi bir uyarı penceresi çıkar ve bitiş değerinin yeniden girilmesi istenir.
+  
+![End Value](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/end-1.png?raw=true)  
+
+![End Value Error](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/end-2.png?raw=true)
+
+* Kullanıcı geçerli bir başlangıç değeri ve bitiş değeri girdikten sonra bu girilen satır numaraları da dahil olmak üzere aradaki tüm satırlar görüntülenir.
+
+![Specific Content](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/show-specific.png?raw=true)
+
+<br>
+
+> :mag_right: İpucu: Eğer seçilen dosyanın spesifik bir satırını görüntülemek için başlangıç ve bitiş değerlerine aynı değeri girin.
