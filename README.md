@@ -1,3 +1,8 @@
+# Head & Tail Command GUI
+
+## :computer: Proje Hakkında
+Bu proje; Linux'ta head ve tail komutlarının yardımıyla kullanıcının bir file dialog üzerinden girdiği değerlere göre dosyanın hangi satırından hangi satırına kadar görüntüleceğini kullanıcıya soran ve bunları Zenity aracılığıyla bir görsel arayüze dönüştürmeyi amaçlamaktadır.
+
 ## :black_nib: Head ve Tail Komutları Nedir ve Nasıl Kullanılır?
 head ve tail komutları, bir dosyanın başını veya sonunu göstermek için kullanılan Linux komutlarıdır.
 Bu komutlar, dosyanın birkaç satırını görüntülemek için kullanılır.
@@ -32,7 +37,7 @@ Zenity hakkında daha detaylı bilgi edinmek için [tıklayınız.](https://oste
 * Projenin bulunduğu dizine girdikten sonra aşağıdaki komutu terminalinize yazarak uygulamayı çalıştırabilirsiniz. <br>
   `bash script.sh`
 
-## :information_source: :framed_picture: Uygulamanın Açıklanması ve Uygulama İçi Görüntüler
+## :information_source: :framed_picture: Uygulamanın Açıklaması ve Uygulama İçi Görüntüler
 ![File Selection](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/file-selection.png?raw=true)
 
 * Programı ilk çalıştırdığınızda bir dosya seçim penceresiyle karşılaşırsınız. <br>
@@ -51,6 +56,7 @@ Zenity hakkında daha detaylı bilgi edinmek için [tıklayınız.](https://oste
 ![Full Content](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/FullContent.png?raw=true)
 
 * Özel görünüm opsiyonunu seçtiğinizde ilk olarak kullanıcıdan bir başlangıç değeri girmesini ister bu değer gösterilecek içeriğin başlangıç satırını temsil eder.
+  
   > Not: Başlangıç değerine 1 sayısından daha küçük bir değer girilirse aşağıdaki gibi bir uyarı penceresi çıkar ve başlangıç değerinin yeniden girilmesi istenir.
 
 ![Start Value](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/start2.png?raw=true)
@@ -58,6 +64,7 @@ Zenity hakkında daha detaylı bilgi edinmek için [tıklayınız.](https://oste
 ![Start Value Error](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/start-err.png?raw=true)
 
 * Kullanıcı geçerli bir başlangıç değeri girdikten sonra bitiş değerinin girileceği pencereye yönlendirilir. Bitiş değeri gösterilecek içeriğin son satırını temsil eder.
+  
   > Not: Bitiş değerine başlangıç değerinden daha küçük bir değer girilirse aşağıdaki gibi bir uyarı penceresi çıkar ve bitiş değerinin yeniden girilmesi istenir.
   
 ![End Value](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/end-1.png?raw=true)  
@@ -71,3 +78,11 @@ Zenity hakkında daha detaylı bilgi edinmek için [tıklayınız.](https://oste
 <br>
 
 > :mag_right: İpucu: Eğer seçilen dosyanın spesifik bir satırını görüntülemek için başlangıç ve bitiş değerlerine aynı değeri girin.
+
+<br>
+
+* Çıkış yap opsiyonunu seçtiğinizde ise Evet'e tıklayarak uygulamadan çıkış yapabilirsiniz.
+
+<br>
+
+![Exit](https://github.com/berkanserbes/LinuxShellScript-HeadTailGUI/blob/main/Screenshot/exit.png?raw=true)
