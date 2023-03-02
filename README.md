@@ -1,7 +1,7 @@
 # Head & Tail Command GUI
 
 ## :computer: Proje Hakkında
-Bu proje; Linux'ta head ve tail komutlarının yardımıyla kullanıcının bir file dialog üzerinden girdiği değerlere göre dosyanın hangi satırından hangi satırına kadar görüntüleceğini kullanıcıya soran ve bunları Zenity aracılığıyla bir görsel arayüze dönüştürmeyi amaçlamaktadır.
+Bu proje; Linux'ta head ve tail komutlarının yardımıyla kullanıcının bir file dialog üzerinden girdiği değerlere göre dosyanın hangi satırından hangi satırına kadar görüntüleyeceğini kullanıcıya soran ve bunları Zenity aracılığıyla bir görsel arayüze dönüştürmeyi amaçlamaktadır.
 
 ## :black_nib: Head ve Tail Komutları Nedir ve Nasıl Kullanılır?
 head ve tail komutları, bir dosyanın başını veya sonunu göstermek için kullanılan Linux komutlarıdır.
